@@ -21,6 +21,7 @@ clean :
 
 fclean : clean
 	rm -rf ${NAME1}
+	rm -rf tmp_Colleen
 
 re :  fclean all
 
