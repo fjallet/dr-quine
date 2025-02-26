@@ -1,6 +1,6 @@
-NAME = Grace
+NAME = Sully
 
-SRCS = Grace.c
+SRCS = Sully.c
 
 OBJETS = ${SRCS:%.c=./%.o}
 
@@ -22,7 +22,7 @@ clean :
 
 fclean : clean
 	rm -rf ${NAME}
-	rm -rf Grace_kid.c
+	rm -rf Sully_*
 
 re :  fclean all
 
